@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FlaskTest</title>
+</head>
+<body>
+<h2>URL Status</h2>
+<h4>Here is the current plugins and their URL status:</h4>
+
+{% for key,value in status_database.items() %}
+
+<p> {{key}} : {{value}}</p>
+{% endfor %}
+
+</html>
