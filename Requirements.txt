@@ -1,0 +1,5 @@
+# ECEN4003PluginFinal
+
+pandas==1.3.5 
+flask==2.0.2
+openpyxl==3.0.9
