@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>FlaskTest</title>
+<title>Plugin Checker</title>
 </head>
 <body>
 <h2>Adding a plugin</h2>
 <h4>Please provide the plugin information: </h4>
 </html>
 
-<form action="/data" method = "POST">
-    <p>Name <input type = "text" name = "Name" /></p>
-    <p>Type <input type = "text" name = "Type" /></p>
-    <p>Port <input type = "text" name = "Port" /></p>
-    <p>Archive <input type = "text" name = "Archive" /></p>
-    <p>Language <input type = "text" name = "Language" /></p>
-    <p>Test <input type = "text" name = "Test" /></p>
-    <p>Description <input type = "text" name = "Description" /></p>
-    <p>Endpoint <input type = "text" name = "Endpoint" /></p>
-    <p>Repository <input type = "text" name = "Repository" /></p>
-    <p>DockerFiler <input type = "text" name = "DockerFiler" /></p>
-    <p>URL <input type = "text" name = "URL" /></p>
+<form action="/add_submit" method = "POST">
+    <p>Name <input type = "text" name = "Name:" /></p>
+    <p>Type <input type = "text" name = "Type:" /></p>
+    <p>Port <input type = "number" name = "Port:" /></p>
+    <p>Archive <input type = "text" name = "Archive:" /></p>
+    <p>Language <input type = "text" name = "Language:" /></p>
+    <p>Test <input type = "text" name = "Test:" /></p>
+    <p>Description <input type = "text" name = "Description:" /></p>
+    <p>Endpoint <input type = "text" name = "Endpoint:" /></p>
+    <p>Repository <input type = "text" name = "Repository:" /></p>
+    <p>DockerFiler <input type = "text" name = "DockerFiler:" /></p>
+    <p>URL <input type = "text" name = "URL:" /></p>
     <p><input type = "submit" value = "Submit" /></p>
 </form>
