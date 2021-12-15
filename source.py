@@ -82,10 +82,12 @@ def removePlugin(name):
     if remove_list:
         df.drop(remove_list, axis=0, inplace=True)
         df.to_excel(excel_file, index=False)
-        print(name + " has been deleted!")
+        #print(name + " has been deleted!")
+        return True
         
     else:
-        print("That plugin is not in the file")
+        #print("That plugin is not in the file")
+        return False
         
 
 def Main():
